@@ -1,0 +1,35 @@
+.main-Image {
+  width: 450px;
+  height: 250px;
+}
+.visa-card {
+  position: relative;
+}
+.visa-card > *:not(.main-Image) {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.visa-card > .visa {
+  left: 340px;
+  width: 100px;
+  top: unset;
+  bottom: 10px;
+}
+.visa-card > .sim {
+  top: 50;
+  height: 80px;
+}
+.visa-card > .Name {
+  top: 140px;
+  color: white;
+  font-size: 22px;
+}
+.visa-card > .Acc {
+  top: 180px;
+  font-size: 24px;
+}
+.visa-card > .imbank {
+  left: 340px;
+  width: 100px;
+}
